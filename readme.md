@@ -1,32 +1,45 @@
-Intent Detector
-Overview
+# Chat Intent Detector (ML)
 
-This project is a multi-class text classification system that predicts the intent behind user messages.
+## Overview
 
-It uses TF-IDF + SGDClassifier to classify queries like:
+A basic machine learning model that classifies user messages into predefined intents.
 
-card issues
-payment problems
-account-related queries
-Problem Statement
+---
 
-Customer messages are unstructured and require manual reading.
+## What is implemented
 
-This system:
+* Data preprocessing
+* TF-IDF vectorization (unigrams + bigrams)
+* Multi-class classification using SGDClassifier
+* Model training and validation
 
-automatically detects intent
-helps route queries faster
-reduces manual effort
-Tech Stack
-Python
-scikit-learn
-TF-IDF (feature extraction)
-SGDClassifier (ML model)
-Dataset
-Banking77 dataset (subset used)
-Reduced to ~10 meaningful intents for better accuracy
-Model Pipeline
-Text input
-TF-IDF vectorization (unigrams + bigrams)
-SGDClassifier (log_loss)
-Output predicted intent
+---
+
+## Example
+
+Input:
+
+```
+my card is not working
+```
+
+Output:
+
+```
+card_not_working
+```
+
+---
+
+## Tech Used
+
+* Python
+* scikit-learn
+
+## Current Status
+
+* Model trained
+* Achieving ~0.91 accuracy
+* Basic predictions working
+
+
