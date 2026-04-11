@@ -15,21 +15,7 @@ A basic machine learning model that classifies user messages into predefined int
 
 ---
 
-## Example
-
-Input:
-
-```
-my card is not working
-```
-
-Output:
-
-```
-card_not_working
-```
-
----
+<img width="1894" height="691" alt="Screenshot from 2026-04-11 20-16-26" src="https://github.com/user-attachments/assets/13d932e2-ad48-4971-bdcf-6fa102feae6d" />
 
 ## Tech Used
 
