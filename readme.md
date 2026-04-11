@@ -21,7 +21,11 @@ A basic machine learning model that classifies user messages into predefined int
 
 * Python
 * scikit-learn
-
+What’s Implemented
+Data preprocessing
+TF-IDF vectorization (unigrams + bigrams)
+Multi-class classification using SGDClassifier
+Model training and validation
 ## Current Status
 
 * Model trained
